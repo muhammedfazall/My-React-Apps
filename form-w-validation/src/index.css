@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: rgb(182, 182, 182);
+
+}
+.form-container {
+    width: 70%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: rgb(147, 147, 147);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: monospace;
+}
+.form-container input{
+    width: 100%;
+    border-radius: 5px;
+    font-family: monospace;
+    cursor: pointer;
+}
+.form-container .submit{
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: monospace;
+}
