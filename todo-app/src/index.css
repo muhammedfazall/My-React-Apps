@@ -1,0 +1,105 @@
+body{
+    font-family: monospace;
+}
+.todolist{
+    margin: 60px auto;
+    max-width: 1024px;
+    min-width: 320px;
+    text-align: center;
+    background-color: rgba(150, 150, 150, 0.29);
+    border-radius: 15px;
+    padding: 10px;
+}
+.heading{
+    padding: 10px;
+    font-size: 2.5rem;
+    color: hsla(0, 0%, 0%, 0.626);
+    background-color: hsla(0, 3%, 6%, 0.534);
+    border-radius: 5px;
+}
+.inputbx{
+    width: 80%;
+    outline: none;
+    border: 3px solid hsla(0, 0%, 40%, 0.5);
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 10px;
+    color:hsla(0, 0%, 0%, 0.5);
+}
+.inputbx:hover{
+    border: 3px solid hsla(0, 0%, 0%, 0.5)
+}
+button{
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    background-color: hsla(0, 0%, 0%, 0.6);
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addbtn{
+    padding: 10px;
+    border: 3px solid hsla(0, 0%, 40%, 0.5);
+    background-color: rgba(60, 120, 60, 0.826);
+    color: rgb(190, 250, 190);
+    
+}
+.addbtn:hover{
+    background-color: rgb(60, 120, 60);
+}
+.deletebtn{
+    padding: 0px 20px;
+    border: 3px solid hsla(0, 0%, 40%, 0.5);
+    background-color: hsla(0, 80%, 50%, 0.8);
+    color: rgb(242, 170, 170);
+}
+.deletebtn:hover{
+    background-color: hsl(0, 100%, 30%);
+}
+.movebtn:hover{
+    background-color: hsl(0, 0%, 0%);
+}
+ol{
+    padding: 0;
+}
+li{
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid;
+}
+.text{
+    padding-left: 10px;
+    text-align: left;
+    flex:1;
+}
+.editbx{
+    flex: 1;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 10px;
+    color:hsla(0, 0%, 0%, 0.5);
+}
+.editbtn{
+    font-size: smaller;
+    padding: 5px 10px
+}
+.editbtn:hover{
+    background-color: hsl(0, 0%, 0%);
+}
+.savebtn{
+    font-size:1.2rem;
+    font-family: monospace;
+    padding: 10px;
+}
+.savebtn:hover{
+    background-color: hsl(0, 0%, 0%);
+}
