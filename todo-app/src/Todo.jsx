@@ -48,7 +48,7 @@ function Todo() {
     }
     return (
         <div className='todolist'>
-            <h1 className='heading'>To-Do-List.</h1>
+            <h1 className='heading'>To-Do-List</h1>
             <div>
                 <input className='inputbx' type="text" placeholder='Write your task here...' value={newTask} onChange={handleInput} />
                 <button className='addbtn' onClick={handleAdd}>+</button>
